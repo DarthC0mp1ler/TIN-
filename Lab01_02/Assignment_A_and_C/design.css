@@ -1,0 +1,47 @@
+/*
+1. Define font style and size for paragraphs and headers
+
+2. Define style and color of table borders
+
+3. Remove underlines from links
+
+4. Change the style of markers for unordered lists
+
+*/
+
+h1 {
+  font-size: 40px;
+  font-style: oblique;
+}
+
+p {
+  font-size: 20px;
+  font-style: normal;  
+}
+
+em {
+	font-size: 23px; 
+}
+
+body { 
+  
+  background-color: #FFE5B4;
+}
+
+table {
+  border: 3px solid red;
+}
+
+td {
+	border: 1px solid blue;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: square;
+}
+
+
