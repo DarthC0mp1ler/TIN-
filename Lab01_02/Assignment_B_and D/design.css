@@ -1,0 +1,17 @@
+/*
+1. Define style and size of font for form elements
+
+2. Define colors for field labels 
+(mandatory fields should have different color from other fields)
+*/
+
+
+form{
+	background: #FFE5B4;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.mand{
+	color: red;
+}

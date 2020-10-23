@@ -1,0 +1,23 @@
+body{
+	font-size: 25px;
+	
+}
+
+.column {
+	float: left;
+	width: 40%;
+	padding: 15px;
+}
+
+.imperial-city-image{ 
+	height: 150px; 
+	width: 250px;
+	border-radius: 8px;
+}
+
+.white-gold-tower-image{
+	height: 250px;
+	width: 150px;
+	border-radius: 18px;
+	border: 10px solid white;
+}

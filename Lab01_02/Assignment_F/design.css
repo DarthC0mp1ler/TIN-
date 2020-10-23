@@ -1,0 +1,58 @@
+div {
+	margin-top:10px;
+	border: 2px solid #000000;
+	background-color: #00000080;
+	font-size:35;
+}
+
+body{
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+	background-image: url('https://images7.alphacoders.com/840/840493.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.banner-image{
+	background-image: url('https://static.bandainamcoent.eu/high/dark-souls/dark-souls-3/00-page-setup/ds3_banner.jpg');
+	width: %;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: auto;
+}
+
+.banner-text{
+	
+	font-size:75px;
+	text-align: center;
+	color: white;
+}
+
+.header {
+	margin-left:10px;
+	font-size:32px;
+	font-style: italic;
+	text-decoration: underline;
+	
+}
+
+p, ul, li {
+	margin-left:20px;
+	font-size:20px;
+}
+
+.link{
+	color: #C0C0C0;
+	text-decoration: none;
+}
+
+.link:hover{
+	color: #DAA520;
+}
+
+.link a {
+	color: inherit;
+}
