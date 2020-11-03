@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--
+Use Flexbox and other properties to create a webpage meeting the following requirements:
+
+· Header, using an image with rounded corners, rotated and casting shadow + text
+
+· Gallery, located on the left, containing images with captions (use tags figure and figcaption!)
+
+· Text on the right (at least 5-6 paragraphs) + images and pulled quotes. 
+	Text should be wrapped around images and pulled quotes. 
+	Pulled quotes should be formatted to stand out from surrounding text. 
+	Text should be divided into columns, number of columns should change 
+	dynamically depending on available space to maintain readability
+
+· Footer – always at the end of the document
+
+· Use semantic markup, remember about alt attributes
+
+· On devices with <800 pixels width text should be displayed in a single column, gallery should be located after text
+
+· (option) import two fonts, use one for headers and pulled quotes, second for main text and captions
+
+· Background, colors – it is up to you
+
+· Following pages contain example screenshots from a page meeting above requirements
+-->
+<html>
+<head>
+	<title>Assignment A</title>
+	<link rel="stylesheet" href="design.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+	<header>
+		<H1 class="header-img" alt="title image"/>
+		<H1 >Middle-earth: Shadow of War<H1>
+	</header>
+<div class="flexbox">
+	<aside>
+			<figure>
+				<img src="https://allegro.stati.pl/AllegroIMG/PRODUCENCI/Steam/Middle-earth-Shadow-of-War/1-gra-na-pc-middle-earth.jpg"
+					width="260" height="146" alt="fig.1 Art">
+				<figcaption>Fig.1 Art.</figcaption>
+			</figure>
+			<figure>
+				<img src="https://www.gry-online.pl/Galeria/Html/Wiadomosci/594831796.jpg"
+					width="260" height="146" alt="fig.1 second art">
+				<figcaption>Fig.2 Second art.</figcaption>
+			</figure>
+			<figure>
+				<img src="https://cdn.vox-cdn.com/thumbor/8p7KuHVtpk8qWlRiCQfyjhdE12A=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/9445681/Gorgoroth_Medium_91b2d98ff2.jpg"
+					width="260" height="146" alt="fig.3 mordor">
+				<figcaption>Fig.3 Mordor.</figcaption>
+			</figure>
+	</aside>
+	<div class="columnsDiv">
+		<article>
+		<H2>The Path To Middle-earth: Shadow of War</H2>
+		
+			Set almost immediately after their last adventure, Middle-earth: Shadow of War sees the undead ranger Talion and his wraith sidekick Celebrimbor 
+			<blockquote>
+				<p> Nan ihier gelair Mordor - Celebrimbor</p>
+			</blockquote>
+			expand their arsenal of skills as they forge a new ring of power in order to dismantle the Dark Lord Sauron's influence. The scope is much larger than before, and in order to survive, Talion and Celebrimbor will have to form their own army of orcs, trolls, and dragons--forcing Talion to fight fire with fire to quell the evils of Mordor and beyond.
+		
+		<div/>
+			For anyone who hasn't had the chance to dive into Shadow of Mordor, here's a quick breakdown of all the key events in the first game, how 
+			<img class="imgLeft"src="https://www.voidu.com/content/products/gallery/nxw58bfd125307da.jpg"
+			width="160" height="80" alt="another image on the left">
+			they lead up to the next adventure, and where Talion and Celebrimbor's story fits into the broader history of J.R.R. Tolkien's Middle-earth. Moreover, we also have a quick look at what happens in the opening hour of Shadow of War, and just what the next adventure has in store for the undead duo. Of course, there are spoilers abound, so be wary of the road that lays ahead.
+		
+		<div/>
+			Be sure to check out our full review of Middle-earth: 
+			<blockquote>
+				<p> Nan ihier gelair Mordor</p>
+			</blockquote>
+			Shadow of War on GameSpot, where we dive into the epic new game set in the Tolkien's universe.
+		</article>
+		<article>
+		<H2>In The Beginning </H2>
+			Set within the sixty-year gap between The Hobbit and The Lord Of The Rings saga, 
+			<img class="imgRight"src="https://i.pinimg.com/originals/a6/63/64/a663642a46117f70064eef809543b6cc.jpg"
+			width="140" height="260" alt="this image is on the right">
+			Shadow of Mordor begins during a relatively calm period of Middle-earth, which is largely uncharted territory in Tolkien-lore. The kingdom of Gondor keeps watch of the mostly arid and craggy lands of Mordor due to constant activity from orcs, and the persistent rumors of Sauron's gradual return to power. Gondorian ranger Talion and his family are stationed at one of the garrisons a part of the Black Gate of Mordor, intended to shield the dangers of Mordor from the rest of the land.
+		</article>
+		<article>
+		<H2>Death And Rebirth</H2>
+			After a day of training and resting with his family, the garrison is suddenly attacked by orcs and Uruks--a, who serve the Dark Lord Sauron. Led by three Black Captains--The Hammer Of Sauron, The Tower Of Sauron, and The Black Hand of Sauron--the overrun the garrison and take control of the Black Gate. Though he's able to fight off several foes, Talion and his family are held captive and used as sacrifices to summon the wraith of long dead Elvish smith master Celebrimbor to fuse with their Dark Lord. Instead, Celebrimbor merges with Talion's soul, saving him from oblivion.
+		</article>
+		<article>
+		<H2>Into Mordor</H2>
+			Bonded together by the Black Hand's spell, 
+				<blockquote>
+				<p>Celebrimbor</p>
+				</blockquote>
+			Celebrimbor--who has apparently lost much of his memories--forms a plan with Talion to exact revenge against Sauron's army, and retake Mordor. Now living as a hybrid of man and wraith, Talion is imbued with radical new abilities that grant him supernatural speed and power, while also allowing him to defy death itself--reviving upon defeat at the many forge towers from Celebrimbor's past. From there, the pair set off to dismantle the Orc hierarchy in Mordor, either through force or sabotage from within.
+		</article>
+	</div>
+
+		
+
+</div>
+</body>
+<footer>
+	<HR WIDTH="100%" COLOR="#000000" SIZE="1">
+	<p>Author: Pavlo Zinevych</p>
+	<p><a href="s19204@pjwstk.edu.pl">s19204@pjwstk.edu.pl</a></p>
+</footer>
+
+</html>
+

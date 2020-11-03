@@ -1,0 +1,90 @@
+
+.header-img {
+  width: 400px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url('https://fanatical.imgix.net/product/original/f2bfdeec-5e4a-436e-afa0-cc6222512840.jpeg');
+  background-size: cover;
+  border-radius: 10px;
+  transform: rotate(7deg);
+  -webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,1));
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction:column;
+}
+
+H1{
+	text-align: center ;
+	column-span: all
+}
+
+body{
+	background-color: #ebd5b3;
+}
+
+@media screen and (min-width: 800px){
+	.flexbox{
+		display: flex;
+		flex-direction: row;
+		width : 100%;
+	}
+	
+	.columnsDiv{
+		column-count: 3;
+		column-gap: 30px;
+		column-width: 200px;
+	}
+}
+
+@media screen and (max-width: 800px){
+	.flexbox{
+		display: flex;
+		flex-direction: column-reverse;
+		flex-
+		
+		width : 100%;
+	}
+	
+	.columnsDiv{
+		column-count: 1;
+	}
+}
+
+img{
+	border-radius: 18px;
+}
+
+
+
+.imgRight{
+	float: right;
+	
+}
+.imgLeft{
+	float: left;
+	border: 10px solid #00000000;
+}
+
+@font-face {
+  font-family: KoreanFont;
+  src: url(Font.ttf);
+}
+
+blockquote {
+	font-family: KoreanFont;
+	float: right;
+	margin: auto;
+	padding: auto;
+	color: #555;
+}
+
+
+a:link{
+	text-decoration: none;
+	color: black;
+}
