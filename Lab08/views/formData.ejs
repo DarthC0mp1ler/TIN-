@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/formStyle.css' />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+    <H1>Operation was completed</H1>
+    <table border="1">
+        <tr>
+            <th><b>Processed message:</b></th>
+            <th><%= content %></th>
+        </tr>
+        <tr>
+            <th><b>First parameter:</b></th>
+            <th><%= first %></th>
+        </tr>
+        <tr>
+            <th><b>Second parameter:</b></th>
+            <th><%= second %></th>
+        </tr>
+        <tr>
+            <th><b>Operation:</b></th>
+            <th><%= oper %></th>
+        </tr>
+        <tr>
+            <th><b>Result:</b></th>
+            <th><%= result %></th>
+        </tr>
+    </table>
+    <form><button type="submit" formaction="/form" >Back</button></form>
+</body>
+<footer>
+    <HR WIDTH="100%" COLOR="#000000" SIZE="1">
+    <p>Author: Pavlo Zinevych <a href="s19204@pjwstk.edu.pl">s19204@pjwstk.edu.pl</a></p>
+</footer>
+</html>
