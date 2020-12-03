@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+    <link rel='stylesheet' href='./stylesheets/style.css' />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="./javascripts/jsonCreator.js"></script>
+</head>
+<body>
+<form name="form">
+    <label for="in1">Input first number:</label>
+    <input id="in1" type="number" name="in1" size="50" required>
+    <br/>
+    <label for="in2">Input second number:</label>
+    <input id="in2" type="number" name="in2" size="50" required>
+    <br/>
+    <label for="oper"> Choose the operation:</label>
+    <select id="oper" name="oper">
+        <option value="Add">Add</option>
+        <option value="Sub">Subtract</option>
+        <option value="Mul">Multiply</option>
+        <option value="Div">Divide</option>
+    </select>
+    <br/>
+    <button type="button" onclick="onSubmit()">Submit Json</button>
+    <br/>
+    <label for="out">Result is:</label>
+    <input id="out" type="number" name="out" size="50" disabled>
+</form>
+</body>
+<footer>
+    <HR WIDTH="100%" COLOR="#000000" SIZE="1">
+    <p>Author: Pavlo Zinevych <a href="s19204@pjwstk.edu.pl">s19204@pjwstk.edu.pl</a></p>
+</footer>
+</html>
