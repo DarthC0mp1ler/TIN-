@@ -19,25 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fb1cd0c-a4b9-4296-a884-25342791a015" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="87f7e1af-dd58-4d6d-8a55-b9d35f112f21" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Lab09/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab09/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1l9IyEQQ180P4EHkUvWto4V0O2z" />
+  <component name="ProjectId" id="1lhNfey7UHeQ7WynBDwtp8nG4fl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,30 +39,39 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.13.1" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.19.8" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path" value="$APPLICATION_CONFIG_DIR$/node/node-v12.13.1-win-x64/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PJATK\TIN-\Lab10\dist" />
+      <recent name="D:\PJATK\TIN-\Lab10\distr" />
+      <recent name="D:\PJATK\TIN-\Lab10\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="NodeJSConfigurationType" path-to-node="$APPLICATION_CONFIG_DIR$/node/node-v12.13.1-win-x64/node">
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
+        <profiling log-folder="D:\Programming\WebStorm 2020.2.3\jbr\bin\." />
+      </EXTENSION>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8fb1cd0c-a4b9-4296-a884-25342791a015" name="Default Changelist" comment="" />
-      <created>1607003132515</created>
+      <changelist id="87f7e1af-dd58-4d6d-8a55-b9d35f112f21" name="Default Changelist" comment="" />
+      <created>1608045469273</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607003132515</updated>
-      <workItem from="1607003133650" duration="4729000" />
-      <workItem from="1607110651416" duration="821000" />
-      <workItem from="1608040760927" duration="38000" />
-      <workItem from="1608040975010" duration="28000" />
+      <updated>1608045469273</updated>
+      <workItem from="1608045470487" duration="4453000" />
     </task>
     <servers />
   </component>
@@ -86,24 +88,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1000" height="210" key="GridCell.Tab.0.bottom" timestamp="1607140196964">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1000" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607140196964" />
-    <state width="1000" height="210" key="GridCell.Tab.0.center" timestamp="1607140196964">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1000" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607140196964" />
-    <state width="1000" height="210" key="GridCell.Tab.0.left" timestamp="1607140196963">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1000" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607140196963" />
-    <state width="1000" height="210" key="GridCell.Tab.0.right" timestamp="1607140196964">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1000" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607140196964" />
   </component>
 </project>

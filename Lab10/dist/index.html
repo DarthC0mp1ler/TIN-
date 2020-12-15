@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 10</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src=main.js></script>
+</head>
+<body>
+<form name="dist">
+    <fieldset>
+        <legend>Distace convertor:</legend>
+        <label for="kilos">Input distance in kilometers:</label>
+        <input id="kilos" type="number" name="kilos" size="50">
+        <br/>
+        <label for="miles">Input distance in miles:</label>
+        <input id="miles" type="number" name="miles" size="50">
+        <br/>
+        <label for="Dbase"> Choose the base:</label>
+        <select id="Dbase" name="Dbase">
+            <option value="K">Kilometers</option>
+            <option value="M">Miles</option>
+        </select>
+        <button type="button" onclick="convertDistance()">Convert</button>
+        <label for="Dres">Distance convertion result:</label>
+        <input id="Dres" name="Dres" size="50" disabled>
+    </fieldset>
+</form>
+<form name="temp">
+    <fieldset>
+        <legend>Temperature convertor:</legend>
+        <label for="celc">Input temperature in Celcius:</label>
+        <input id="celc" type="number" name="celc" size="50">
+        <br/>
+        <label for="fahr">Input temperature in Fahrenheit:</label>
+        <input id="fahr" type="number" name="fahr" size="50">
+        <br/>
+        <label for="kelv">Input temperature in Kelvin:</label>
+        <input id="kelv" type="number" name="kelv" size="50">
+        <br/>
+        <label for="Tbase"> Choose the base:</label>
+        <select id="Tbase" name="Tbase">
+            <option value="C">Celcius</option>
+            <option value="F">Fahrenheit</option>
+            <option value="K">Kelvin</option>
+        </select>
+        <button type="button" onclick="convertTemperature()">Convert</button>
+        <label for="Tres">Temperature convertion result:</label>
+        <input id="Tres" name="Tres" size="50" disabled>
+    </fieldset>
+</form>
+</body>
+<footer>
+    <HR WIDTH="100%" COLOR="#000000" SIZE="1">
+    <p>Author: Pavlo Zinevych</p>
+    <p><a href="s19204@pjwstk.edu.pl">s19204@pjwstk.edu.pl</a></p>
+</footer>
+</html>
