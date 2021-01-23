@@ -1,0 +1,44 @@
+#gameScreen{
+    border: 5px solid deepskyblue;
+}
+
+
+body{
+    background-image: url("http://localhost:3000/images/background.png");
+    text-align: center;
+    overflow: hidden;
+    color: gold;
+    font-size: 40px;
+}
+h1{
+    font-size: 40px;
+}
+
+.settings{
+    text-align: left;
+    font-size: 20px;
+}
+
+.stats{
+    text-align: center;
+    background-color: black;
+}
+
+button{
+    border: solid yellow;
+    color: gold;
+    font-size: 50px;
+    background-color: black;
+}
+
+button:hover{
+    background-color: gold;
+    color: black;
+}
+
+input{
+    background-color: black;
+    color: gold;
+    font-size: 40px;
+    width: 80px;
+}

@@ -1,0 +1,26 @@
+Build a frontend application in the form of a single player game
+(something simple – simple platformer, pacman or space invaders clone, scrolling shooter).
+This application should be built in JavaScript using standard JS browser APIs (canvas etc)
+or using a JavaScript/TypeScript game library, multi-platform tools like Unity etc. are not allowed.
+The application should meet the following requirements (requirements specified for each grade,
+you need to meet all lower grade requirements in order to get higher grade):
+
+Make sure to clear your game idea with the teacher, as this is a bit more “free-form” project.
+
+Grade “3”: (2 points)
+
+Basic Node.js (you can use express) application for serving the static content (HTML page, game script, any assets)
+Game itself (2D graphics on Canvas, keyboard or mouse input)
+Requirements:
+· The game should be playable
+· It should include some basic behaviour for non-player characters (movement/attack/whatever)
+
+Grade “4”: (3 points)
+Additional requirements:
+· Scoring mechanism, high scores table maintained on the backend
+· Separate title screen, game screen and game over/high scores screen
+
+Grade “5”: (4 points)
+Additional requirements:
+· Sound (music and game fx), with the ability to turn the soundManager off (music and fx separately)
+· More than one game level

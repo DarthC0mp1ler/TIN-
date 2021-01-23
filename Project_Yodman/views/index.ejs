@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/levelStyle.css' />
+    <script src="/javascripts/soundManager.js"></script>
+  </head>
+  <body>
+  <div class="settings">
+    <button class="settings" onclick="toggle()">
+      Toggle sound
+    </button>
+  </div>
+    <h1><%= title %></h1>
+    <div>
+      <form>
+        <label for="levelNo">Starting level</label>
+        <input name="levelNo" readonly="readonly" id="levelNo" type="number" value="0" >
+        <br>
+        <label for="score">Starting score</label>
+        <input name="score" readonly="readonly" id="score" type="number" value="0" >
+        <br><br>
+        <button type="submit" formaction="/level" formmethod="post">New game</button>
+      </form>
+    </div>
+  </body>
+</html>

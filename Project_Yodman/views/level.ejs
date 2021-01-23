@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Level <%= number %></title>
+    <link rel='stylesheet' href='/stylesheets/levelStyle.css' />
+
+</head>
+<body>
+<div class="settings">
+    <button class="settings" onclick="toggle()">
+        Toggle sound
+    </button>
+</div>
+<h1>
+    <label for="levelNo">Level</label>
+    <label type="number" id="levelNo"><%= number %></label>
+</h1>
+<div>
+    <div class="stats">
+        <label>Score: </label>
+        <label id="scor"> <%= scor %> </label>
+        <label> Lives: </label>
+        <label id="lives"></label>
+    </div>
+    <canvas id="gameScreen"></canvas>
+    <div >
+        <button onclick="location.href='http://localhost:3000/'" type="submit">Main menu</button>
+    </div>
+    <form id="next">
+        <label for="nextLevelNo">Next level</label>
+        <input name="levelNo" readonly="readonly" id="nextLevelNo" type="number">
+        <label for="score">Score</label>
+        <input name="score" readonly="readonly" id="score" type="number">
+        <button type="submit" formaction="/level" formmethod="post">Next</button>
+    </form>
+</div>
+<script type="module" src="/javascripts/drawer.js"></script>
+<script src="/javascripts/soundManager.js"></script>
+</body>
+</html>
